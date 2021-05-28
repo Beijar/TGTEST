@@ -437,7 +437,7 @@ __webpack_require__.r(__webpack_exports__);
 class HttpService {
     constructor(httpClient) {
         this.httpClient = httpClient;
-        this.redditUrl = "http://www.reddit.com/r/";
+        this.redditUrl = "https://www.reddit.com/r/";
     }
     getRedditPost(topic, limit, after) {
         if (after) {

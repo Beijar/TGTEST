@@ -846,7 +846,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, HttpService);
 
         this.httpClient = httpClient;
-        this.redditUrl = "http://www.reddit.com/r/";
+        this.redditUrl = "https://www.reddit.com/r/";
       }
 
       _createClass(HttpService, [{
