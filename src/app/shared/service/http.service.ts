@@ -8,7 +8,7 @@ import { catchError } from 'rxjs/operators';
 })
 export class HttpService {
 
-  redditUrl = "http://www.reddit.com/r/";
+  redditUrl = "https://www.reddit.com/r/";
 
   constructor(private httpClient: HttpClient) { }
 
